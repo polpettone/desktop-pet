@@ -41,7 +41,6 @@ func NewPet(x, y int, scale float64, path string) *Pet {
 func (p *Pet) Draw(screen *ebiten.Image, gameClock int) {
 
 	op := &ebiten.DrawImageOptions{}
-
 	op.GeoM.Scale(p.Scale, p.Scale)
 	op.GeoM.Translate(float64(p.X), float64(p.Y))
 

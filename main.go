@@ -17,7 +17,7 @@ func main() {
 
 	petImagesPath := "pet-2"
 	scale := 1.0
-	walkMode := Bottom
+	walkMode := Random
 	if len(os.Args) > 1 {
 		petImagesPath = os.Args[1]
 	}
@@ -31,8 +31,8 @@ func main() {
 	}
 
 	if len(os.Args) > 3 {
-		if os.Args[3] == "RANDOM" {
-			walkMode = Random
+		if os.Args[3] == "BOTTOM" {
+			walkMode = Bottom
 		}
 	}
 
