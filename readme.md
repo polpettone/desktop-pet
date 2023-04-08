@@ -1,19 +1,35 @@
 # Desktop Pets 
 
-## How to run a pet
+- small animations running around your desktop
 
+## But Why
+Desktop Pets are just a small project to learn go
+Small animations, mostly pets, get rendered in a window without borders an a transparent 
+background.
+The ebiten gaming engine is used for rendering and running the animations
 
-## go installed
-```
-go run . assets/pet-1 0.3
-```
+## Installation
 
-## Linux
+### Prequisits 
+- go environment
+
+### Steps
+- clone repo
+- ```go install```
+
+## Usage
+
+TBD
+
+## Run a prepared binary
+
+### Linux
+- run within a shell
 ```
 ./desktop-pet
 ```
 
-## Windows
+### Windows
 Doppelklick
 ```
 desktop-pet.exe
